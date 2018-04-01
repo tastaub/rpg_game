@@ -13,10 +13,33 @@ body  {
 
 .fighter  {
     height: 130px;
-    widows: auto;
+    width: auto;
     margin: 0 auto;
     padding-bottom: 15px;
     padding-top: 15px;
+}
+
+.attack  {
+    height: 100px;
+    width: auto;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.attackHead  {
+        margin-top: 15px;
+        text-align: center;
+        margin-bottom: 15px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        color: #DABE2D;
+        width: 140px;
+        height: 35px;
+        border: solid 3px #DABE2D;
+        background-color: #000000;
+        margin: 0 auto;
+        border-radius: 5px;
 }
 
 .charName  {
