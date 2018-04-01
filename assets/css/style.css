@@ -5,8 +5,8 @@ body  {
 
 .headLogo  {
     padding-top: 15px;
-    padding-bottom: 15px;
-    height: 120px;
+    padding-bottom: 5px;
+    height: 100px;
     width: auto;
     margin: 0 auto;
 }
@@ -41,19 +41,26 @@ body  {
     font-family: 'VT323', monospace;
     font-size: 20px;
     font-weight: bold;
-    color: #DABE2D;
+    color: rgb(185, 20, 11);
     width: 40px;
     height: 35px;
-    border: solid 3px #DABE2D;
+    border: solid 3px rgb(185, 20, 11);
     background-color: #000000;
     margin: 0 auto;
     border-radius: 20px;
 
 }
 
-h1  {
+.instructions  {
     text-align: center;
     font-family: 'Quicksand', sans-serif;
     font-weight: bolder;
-    font-size: 35px;
+    font-size: 20px;
+    color: #DABE2D;
+    width: 300px;
+    height: 30px;
+    border: solid 3px #DABE2D;
+    background-color: #000000;
+    margin: 0 auto;
+    border-radius: 5px;
 }
