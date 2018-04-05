@@ -9,84 +9,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<style>
 	
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Quicksand|VT323" rel="stylesheet">
+		.character-div  {
+			border: 2px solid red;
+			height: 200px;
+			width: 200px;
+		}
+
+		.container  {
+			height: 200px;
+			display: flex;
+			justify-content: space-between;
+		}
+
+	</style>
 	
 </head>
 
 <body>
 
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<img src="assets/images/starWars.png" class="img-responsive headLogo">
-				<div class="instructions">Pick a Hero then an Enemy</div>
-			</div>
-		</div>
-	</div>
-<br>
-	<div class="container charSetup">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="row">
-					<div class="col-md-3" data-name="rey">
-						<div class="charName">Rey</div>
-						<img src="assets/images/rey.png" class="img-responsive fighter">
-						<div class="charHealth">140</div>
-					</div>
-					<div class="col-md-3" data-name="kylo">
-						<div class="charName">Kylo Ren</div>
-						<img src="assets/images/kylo.png" class="img-responsive fighter">
-						<div class="charHealth">170</div>
-					</div>
-					<div class="col-md-3" data-name="yoda">
-						<div class="charName">Master Yoda</div>
-						<img src="assets/images/yoda.png" class="img-responsive fighter">
-						<div class="charHealth">190</div>
-					</div>
-					<div class="col-md-3" data-name="stormTrooper">
-						<div class="charName">Soldier</div>
-						<img src="assets/images/stormTrooper.png" class="img-responsive fighter">
-						<div class="charHealth">100</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-<br>
-<br>
-<br>
-
-	<div class="container fightArea">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="row">
-					<div class="col-md-3" data-name="rey">
-						<div class="charName">Rey</div>
-						<img src="assets/images/rey.png" class="img-responsive fighter">
-						<div class="charHealth">140</div>
-					</div>
-					<div class="col-md-6 attackArea">
-						<div class="attackHead">Attack</div>
-						<img src="assets/images/rebel.png" class="img-responsive attack">
-					</div>
-					<div class="col-md-3" data-name="kylo">
-							<div class="charName">Kylo Ren</div>
-							<img src="assets/images/kylo.png" class="img-responsive fighter">
-							<div class="charHealth">170</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+	<div class="container"></div>
 
 
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+	<script src="assets/js/game.js"></script>
 	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-	<!-- Link to javascript -->
+
 
 </body>
 
